@@ -1,0 +1,188 @@
+.home {
+    background-color: rgb(59, 59, 68);
+    min-height: 100vh;
+    color: white;
+
+    font-size: 20px;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+
+}
+
+body {
+    background-color: rgb(59, 59, 68);
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+}
+.cv__header{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.Navbar {
+    width: 100%;
+    position: sticky;
+    border-radius: 5px;
+    margin: 0px;
+}
+
+.cv__topDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.cv__classDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+
+}
+
+.cv__classDiv>div {
+
+    margin-top: 20px;
+    margin: 10px;
+    width: 90%;
+    border-style: none solid none none;
+    
+}
+.cv__classDiv :last-child{
+    border-style: none;
+}
+
+.cv__header {
+    border-radius: 5px;
+    padding: 5px;
+    background-color: white;
+    color: rgb(66, 66, 66);
+
+    text-align: center;
+}
+.CV__h4__div{
+    margin-left: 50px;
+}
+.about__textfield{
+    color: white !important;
+}
+.contact__home{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contact__home1{
+    display:flex; flex-direction:row;
+    justify-content: center;
+    align-items: flex-end;
+}
+.contact__home1>div{
+margin-right: 20px;
+margin-left: 20px;
+
+}
+.new__home{
+    text-align: center;
+}
+@media screen and (min-width:768px) {
+    .floatRigth {
+        margin-left: auto;
+    }
+
+}
+
+
+@media screen and (max-width:768px) {
+    .home {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .cv__classDiv>div {
+
+        border-style: none none solid none;
+        
+    }
+
+    .cv__classDiv {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .mininavbar__container {
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+
+    }
+
+    h4 {
+        text-align: left;
+        width: 100%;
+    }
+
+    .CV__h4__div {
+        
+        margin-top: 30px;
+        width: 100%;
+        text-align: left;
+        margin-left: 0px;
+    }
+    
+
+    .NavigationBar__navlink {
+        width: 100%;
+        text-align: center;
+    }
+
+    .cv__topDiv {
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px;
+        align-items: center;
+        
+
+    }
+    .contact__home1{
+        display:flex; flex-direction:column;
+        justify-content: center;
+        align-items: flex-end;
+    }
+}
+
+.home__picture1 {
+    background-image: url('../../images/IMG_0668.jpg');
+    height: 500px;
+    /* You must set a specified height */
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    text-decoration: none;
+    letter-spacing: 3px;
+    text-align: center;
+    width: 100%;
+
+
+}
+
+.home__picture1>div {
+    position: -webkit-sticky;
+    bottom: auto;
+    top: auto;
+}
