@@ -87,7 +87,9 @@ function CV() {
                         <br/>
                         - Flutter <br/>
                         - React <br/>
+                        - Next <br />
                         - Django
+
                     </div>
                 </div>
             </div>
