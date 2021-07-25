@@ -43,6 +43,7 @@ const [loading, setloading] = useState(false)
             setmyAlert('Success! Will be in touch as soon as possible.')
         setmyError()
         }).catch((error)=>{
+            console.log(error)
             setmyError('Error occured. Please try again later');
             setmyAlert()
             setloading(true)
@@ -59,7 +60,8 @@ const [loading, setloading] = useState(false)
             className='home new__home'>
                 <h2>Please fill out the below form and I'll contact you shortly.</h2>
                 {myAlert && <Alert style={{width:'70%'}} variant='success'>{myAlert}</Alert>}
-                {myError && <Alert style={{width:'70%'}} variant='danger'>{myError}</Alert>}
+                {myError && <div style={{width:'100%',textAlign:'center', display:'flex', 
+                flexDirection:'row',alignItems:'center',justifyContent:'center'}}><Alert style={{width:'70%'}} variant='danger'>{myError}</Alert></div>}
           <form onSubmit={handleSubmit}>
           <div className='contact__home1'>
               
@@ -132,7 +134,7 @@ style:{color:'white'}
             
                    </div>
                    <Button enabled={loading.toString()} type='submit' variant="outlined" style={{fontSize:'18px',marginTop:'30px',width:'350px', backgroundColor:'rgb(59, 59, 68)', boxShadow:'none'
-                , color:'white'}} color="primary"> Send</Button>      
+                , color:'white',}} color="primary"> Send</Button>      
                    </form>
                    <div style={{display:'flex',justifyContent:'center'}}>
            <IconButton>

@@ -181,7 +181,9 @@ margin-left: 20px;
     .NavigationBar__navlink {
         width: 100%;
         text-align: center;
+        
     }
+   
 
     .cv__topDiv {
         display: flex;

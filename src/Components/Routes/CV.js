@@ -8,7 +8,7 @@ import TwitterIcon from '@material-ui/icons/Twitter';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import '../Styles/Style.css'
-import image from '../../images/IMG_3592.jpg'
+import image from '../../images/gradpic.jpeg'
 
 function CV() {
 
@@ -58,11 +58,11 @@ function CV() {
                         <strong>Bsc. Information Systems Engineering.
                         </strong>
                         <br/>
-                        Bachelor in Information Systems Engineering.
-                        <br/>
+                        Bachelor in Information Systems Engineering,
+                        
                         Cyprus International University, Nicosia, Cyprus.
                         <br/>
-                        Should graduate June 2021.
+                        Graduated June 2021.
                     </div>
                 </div>
 

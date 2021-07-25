@@ -11,7 +11,7 @@ function NavigationBar() {
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="mr-auto w-100 mininavbar__container">
-      <Nav.Link className='NavigationBar__navlink' href="/home">Home</Nav.Link>
+      <Nav.Link className='NavigationBar__navlink' href="/home">ME</Nav.Link>
       <Nav.Link className='NavigationBar__navlink' href="/cv">CV</Nav.Link>
       <Nav.Link  className='floatRigth NavigationBar__navlink' href="/contact">CONTACT ME</Nav.Link>
     </Nav>

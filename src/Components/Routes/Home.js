@@ -53,19 +53,18 @@ function Home() {
                 }
             }>
                 Hi!
-            </h3>Welcome to my portfolio. I am a student of Information Systems Engineering at Cyprus International University, currently in my final year. I have considerable exeperience in mobile and full-stack web developemnent.
+            </h3>Welcome to my portfolio. I am a graduate of information systems engineering, from Cyprus International University(Bsc high honors).
+             I have considerable exeperience in mobile and full-stack web developemnent.
                 <br/>
-                I do freelance and collect projects from different organizations.
+                I do freelance and do projects from different organizations.
                              Some of which include Desktop applications, mobile and even web apps(which you shall see as you follow along).
-                             I am currently in high-honor division and will reveal my CGPA only when I graduate 😉.
                 <br/>
                 I am familiar with programming languages such as Python, C/C++, Java, PHP, dart and the ultimate Javascript.
                               Also, I have my hands dipped into the popular MERN stack,flutter, and a bit Django.
                 <br/>
                 I am passionately ready to work anywhere without a scope. Meaning I can thoroughly learn new languages and frameworks that suite a particular organization interested in my work.
                 <br/> <br/>
-                Feel free to contact me for enquiries
-            
+                Feel free to contact me for further enquiries.
                 </div>
           
 
