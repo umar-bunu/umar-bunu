@@ -1,6 +1,6 @@
 import React from 'react'
 import 'react-bootstrap'
-import {Button, NavLink} from 'react-bootstrap'
+import {Button} from 'react-bootstrap'
 import {Avatar, IconButton} from '@material-ui/core'
 import ContactSupportIcon from '@material-ui/icons/ContactSupport';
 import InstagramIcon from '@material-ui/icons/Instagram';
@@ -30,10 +30,10 @@ function Home() {
                 <div>Umar Bunu
                     <br/>
                     Mobile and Web Developer<ColoredLine color='white'/>
-                   <NavLink to='/contact' >
+                   <Link to='/contact' >
                    <Button variant='outline-light'>   Contact me
                     </Button>
-                       </NavLink>
+                       </Link>
                      
                 </div>
             </div>
@@ -88,8 +88,9 @@ function Home() {
                   <Avatar style={{height:'200px', width:'205px', marginTop:'10px'}} alt="EXEPERIENCE" src={experience}></Avatar>  
                 <h4 style={{marginTop:'10px', marginBottom:'20px'}}>Professsional Experience</h4>
 Freelancing and Higher Education Experience. <br/>
-                        <Button style={{marginTop:'10px'}} variant='outline-secondary'>Learn more</Button>
+                     <Link to='/CV'> <Button style={{marginTop:'10px'}} variant='outline-secondary'>Learn more</Button>
                     
+                     </Link>  
                 </div>
 
                 <div style={
@@ -108,24 +109,30 @@ Freelancing and Higher Education Experience. <br/>
                         }
                     }/>
                     <h6>
-                        <Button variant='outline-secondary'>Contact me</Button>
+                       <Link to='/contact'>
+                       <Button variant='outline-secondary'>Contact me</Button>
+                       </Link> 
                     </h6>
                 </div>
 
             </div>
             <div style={{display:'flex',justifyContent:'center'}}>
            <IconButton>
-           <InstagramIcon style={{ color: 'white', fontSize:'35px' }}/>
+           <a href="https://www.instagram.com/_.icode">
+               <InstagramIcon style={{ color: 'white', fontSize:'35px' }}/></a>
            </IconButton>
            <IconButton>
-           <TwitterIcon style={{ color: 'white', fontSize:'35px' }}/>
+           <a href="https://www.twitter.com/umar_bunuu"> <TwitterIcon style={{ color: 'white', fontSize:'35px' }}/></a>
            </IconButton>
            <IconButton>
-           <LinkedInIcon style={{ color: 'white', fontSize:'35px' }}/>
+           <a href="https://www.linkedin.com/https://www.linkedin.com/in/umar-bunu-784168156">
+                <LinkedInIcon style={{ color: 'white', fontSize:'35px' }}/>
+               </a>
            </IconButton>
          
            <IconButton>
-           <FacebookIcon style={{ color: 'white', fontSize:'35px' }}/>
+               <a href="https://www.facebook.com/profile.php?id=1000085781129686"> <FacebookIcon style={{ color: 'white', fontSize:'35px' }}/></a>
+          
            </IconButton>
            
 </div>

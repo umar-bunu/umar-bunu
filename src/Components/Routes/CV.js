@@ -2,11 +2,16 @@ import React from 'react'
 import 'react-bootstrap'
 import {Avatar} from '@material-ui/core'
 
+import {IconButton} from '@material-ui/core'
+import InstagramIcon from '@material-ui/icons/Instagram';
+import TwitterIcon from '@material-ui/icons/Twitter';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import FacebookIcon from '@material-ui/icons/Facebook';
 import '../Styles/Style.css'
 import image from '../../images/IMG_3592.jpg'
 
 function CV() {
-    console.log('cv')
+
     return (
         <div className='home'>
 <h2 style={{marginLeft:'20px'}}>CV</h2>
@@ -86,6 +91,27 @@ function CV() {
                     </div>
                 </div>
             </div>
+            <div style={{display:'flex',justifyContent:'center'}}>
+           <IconButton>
+           <a href="https://www.instagram.com/_.icode">
+               <InstagramIcon style={{ color: 'white', fontSize:'35px' }}/></a>
+           </IconButton>
+           <IconButton>
+           <a href="https://www.twitter.com/umar_bunuu"> <TwitterIcon style={{ color: 'white', fontSize:'35px' }}/></a>
+           </IconButton>
+           <IconButton>
+           <a href="https://www.linkedin.com/https://www.linkedin.com/in/umar-bunu-784168156">
+                <LinkedInIcon style={{ color: 'white', fontSize:'35px' }}/>
+               </a>
+           </IconButton>
+         
+           <IconButton>
+               <a href="https://www.facebook.com/profile.php?id=1000085781129686"> <FacebookIcon style={{ color: 'white', fontSize:'35px' }}/></a>
+          
+           </IconButton>
+           
+</div>
+
         </div>
 
     )
