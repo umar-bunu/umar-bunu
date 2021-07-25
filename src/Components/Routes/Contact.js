@@ -59,7 +59,8 @@ const [loading, setloading] = useState(false)
             }
             className='home new__home'>
                 <h2>Please fill out the below form and I'll contact you shortly.</h2>
-                {myAlert && <Alert style={{width:'70%'}} variant='success'>{myAlert}</Alert>}
+                {myAlert && <div style={{width:'100%',textAlign:'center', display:'flex', 
+                flexDirection:'row',alignItems:'center',justifyContent:'center'}}><Alert style={{width:'70%'}} variant='success'>{myAlert}</Alert></div>}
                 {myError && <div style={{width:'100%',textAlign:'center', display:'flex', 
                 flexDirection:'row',alignItems:'center',justifyContent:'center'}}><Alert style={{width:'70%'}} variant='danger'>{myError}</Alert></div>}
           <form onSubmit={handleSubmit}>
